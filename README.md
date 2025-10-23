@@ -16,7 +16,7 @@ Microservice-based Applications (SEMA) approach.
 ## IMPLEMENTATION AND TEST
 - [Be: Go Development in the SEMA Tool Environment](pages/be_go_development_in_the_sema_tool_environment.md)
 - [Be: Generate Go API Controller Stubs From the OpenAPI Specification](pages/be_generate_go_api_controller_stubs_from_the_openapi_specification.md)
-- [Be:  Generate gRPC Client and Server Stubs From gRPC Specification](pages/be_generate_ grpc_client_and_server_stubs_from_grpc_spec.md)
+- [Be:  Generate gRPC Client and Server Stubs From gRPC Specification](pages/be_generate_grpc_client_and_server_stubs_from_grpc_spec.md)
 - [Be: Implementing a Microservice in Golang](pages/be_implementing_a_microservice_in_golang.md)
 - [Be: Writing Go Doc Comments](pages/be_writing_go_doc_comments.md)
 
