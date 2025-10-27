@@ -2,7 +2,7 @@
 
 In this Best practice (Be) the tools (including frameworks and libraries) wich are used in the SEMA approach for the development of microservices in Golang are introduced. A focus is on the installation and the basic configuration of the tools.
 
-The figure (taken from the WASA lecture TOOL ENVIRONMENT) provides an overview of the tools which are further described in the following sections of this Be.
+Figure: "Tools Used for Go Development" provides an overview of the tools which are further described in the following sections of this Be.
 
 ![](../figures/tools_used_for_go_development.png)
 Figure: Tools Used for Go Development
@@ -30,7 +30,7 @@ GORM (Go Object Relational Mapping) [GOR-The] provides an ORM library which brid
 Be "Implementing a Microservice in Golang" includes a description how to use GORM to integrate a PostgreSQL database.
 
 
-## Postman API Platform)
+## Postman (API Platform)
 The tool Postman is an API platform for building, using, and testing  APIs [Pos-Wha]. The tool can be used to send requests to a HTTP API.
 
 Be "Implementing a Microservice in Golang" includes a description how to create a HHTP request with Postman.

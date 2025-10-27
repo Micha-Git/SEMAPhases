@@ -11,8 +11,6 @@
 
 ## Using a PostgreSQL Database
 
-<!-- TODO: -->
-
 To work with a PostgreSQL database the ORM (object-relational manager) GORM is used.
 Install the following dependencies in your Golang project:
 ```sh

@@ -19,9 +19,3 @@ In the following, a guideline to derive an AM API diagram will be presented to s
       - Map each use case to a method: Transform the use case title to lower camelCase, and remove the name of the entity that owns the method from the title (e.g., Add Car to Fleet --> addCar)
       - Input parameters are derived from the information passed from the primary actor to the system.
       - Return parameters are derived from the information passed from the system to the primary actors
-
-# Versioning Concept
-
-Versioning will be done using the C&M Versioning Concept [\[CM-G-Ver\]](https://gitlab.kit.edu/kit/cm/teaching/engineeringknowledge/0.general/-/blob/main/pages/gu_versioning_concept.md). However API Diagrams MUST NOT have a patch version number (e.g. 1.0.0). The patch version number is only used for API specifications and implementations. The initial version is therefore `1.0` and not `1.0.0`. 
-
-[CM-G-Ver] Cooperation & Management: Versioning Concept, C&M GitLab. [Source](../gl_versioning_concept.md)

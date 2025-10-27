@@ -63,7 +63,7 @@ The cluster deployment is automatically triggered on each push to the project re
 
 ### Helm Configuration
 
-The provided Helm chart leverages the BaseChart as a dependency, offering a versatile framework to customize the deployment based on your application's needs. Configuration adjustments are made within the file `helm/values.yaml`. For basic requirements, the provided file is sufficient. However, in more complex deployment scenarios — like database integration or setting up specific network configurations — adjusting the Helm values is imperative. For a comprehensive understanding and guidance, consult the [BaseChart Documentation](https://gitlab.kit.edu/kit/cm/teaching/umedocumentation/cicd/basechart).
+The provided Helm chart leverages the BaseChart as a dependency, offering a versatile framework to customize the deployment based on your application's needs. Configuration adjustments are made within the file `helm/values.yaml`. For basic requirements, the provided file is sufficient. However, in more complex deployment scenarios — like database integration or setting up specific network configurations — adjusting the Helm values is imperative.  
 
 ### Argo CD
 

@@ -1,6 +1,7 @@
 # SEMA Phases
-This repository consists of Guidelines (Gu) and Best practices (Be) which serve for the efficient construction of the artifacts used in C&M's Systematic Engineering of
-Microservice-based Applications (SEMA) approach.
+This repository consists of Guidelines (Gu) and Best practices (Be) which serve for the efficient construction of the artifacts used in C&M's Systematic Engineering of Microservice-based Applications (SEMA) approach. 
+
+**Note: The guidelines and best practices were created using GitLab.**  
 
 ## ANALYSIS
 - [Gu: Terms Used](pages/gu_terms_used.md)  

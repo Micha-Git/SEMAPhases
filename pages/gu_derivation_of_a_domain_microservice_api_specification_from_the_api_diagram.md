@@ -17,7 +17,7 @@ While both approaches can be used for all HTTP methods, adhering to established 
 - [3-4] Derive responses based on the possible answers that the endpoint should deliver. Each endpoint should have at least one response with the status code 200. To derive the response with the status code 200, the return parameter of the corresponding method in the API diagram is used. Furthermore, the previously derived schemas (see step 2) are used. If a specific object is searched via the HTTP GET methoId, the status code 404 should be included as well. To derive further alternative responses, the alternative flows in the use case description that is the source of the method in the API diagram may be helpful.
 - [3-5] For reuse purposes, a response schema is defined in the corresponding part of the API specification. For example, in an OpenAPI specification, the schemas are placed in the part components. The responses of an endpoint refer to the defined schema.
 
-The following figure is taken from the WASA course unit MICROSERVICE ENGINEERING, chapter DESIGN.
+The following figure, "Specification of a Domain API with OpenAPI Based on the API Diagram," illustrates the derivation steps.
 
 ![](../figures/specification_domain_api_with_openapi_api_diagram.png)
 Figure: Specification of a Domain API with OpenAPI Based on the API Diagram 
