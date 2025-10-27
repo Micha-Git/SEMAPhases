@@ -1,5 +1,7 @@
 # Best Practice: Applying the CI/CD Templates
 
+**Note: This best practice is written for a GitLab pipeline.**  
+
 ![](../figures/devops_template_artifact_overview.png)
 Figure: DevOps Template Artifact Overview
 
@@ -12,16 +14,18 @@ The cluster deployment artifacts comprise a robust suite of configuration tools 
 A distinction is drawn between artifacts based on their level of engagement with developers. Components like the docker-compose.yaml, Dockerfile, variables.yaml, and values.yaml might require customization by developers to align with application requirements. The artifacts serve as streamlined configuration interfaces, contrasting with the other intricate components that maintain a level of abstraction from the developer.
 
 ## CI/CD Templates
--  [Golang](https://gitlab.kit.edu/kit/cm/teaching/umedocumentation/cicd/golang)
+-  [Golang](/templates/golang) (note: Go template is located in the given folder)
 
 ## Integrate Artifacts from the CI/CD Templates into Existing Project
 
 On your local machine navigate to your project folder and run the following commands. Replace the URL with the required template. Here, the Golang template is used.
 
+Note: The template above needs to be provided as repository. 
+
 
 1. Add the CI/CD Golang template as a remote target and fetch it.
 ```
-git remote add cicd-golang https://gitlab.kit.edu/kit/cm/teaching/umedocumentation/cicd/golang.git
+git remote add cicd-golang https://<link-to-repository>
 git fetch cicd-golang
 ```
 

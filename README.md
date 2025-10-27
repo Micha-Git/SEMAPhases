@@ -23,4 +23,3 @@ Microservice-based Applications (SEMA) approach.
 ## DEPLOYMENT AND OPERATIONS
 - [Be: Setting Up the Docker Environment](pages/be_setting_up_the_docker_environment.md)
 - [Be: Applying the CI/CD Templates](pages/be_applying_the_cicd_templates.md)
-- [Be: Use of C&M's Docker Registry](pages/be_use_of_cms_docker_registry.md)

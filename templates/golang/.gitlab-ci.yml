@@ -1,0 +1,15 @@
+# Note: This template is written for GitLab and references pipeline fragments, each of which is independently versioned.
+
+include:
+  - project: kit/cm/teaching/engineeringknowledge/cicd/pipeline
+    ref: "1.0.3"
+    file : base.yaml
+  - project: kit/cm/teaching/engineeringknowledge/cicd/pipeline
+    ref: "1.0.3"
+    file : image.yaml
+  - project: kit/cm/teaching/engineeringknowledge/cicd/pipeline
+    ref: "1.0.3"
+    file : argocd-deploy.yaml
+  - project: kit/cm/teaching/engineeringknowledge/cicd/pipeline
+    ref: "1.0.3"
+    file : go.yaml
