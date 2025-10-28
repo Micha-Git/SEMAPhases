@@ -1,4 +1,4 @@
-# GoLang Pipeline Template
+# Golang Pipeline Template
 
 This project template is tailored for Golang applications and is primed for both local and cluster deployments. For comprehensive instructions on integrating the deployment artifacts into your existing project and customizing them, refer to [Best Practice: Applying the DevOps Templates](../../pages/be_applying_the_cicd_templates.md).  
 
