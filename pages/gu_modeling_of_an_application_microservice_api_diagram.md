@@ -1,6 +1,6 @@
 # Modeling of an Application Microservice API Diagram
 
-This guideline describes the modeling of an application microservice (AM) API diagram. An important part is the consideration of the Domain Microservice (DM) and System Microservice (SM) API diagrams.
+This guideline describes the modeling of an application microservice (AM) API diagram. An important part is the consideration of the Domain Microservice (DM) and System Microservice (SM) API diagrams. System microservices are microservices that provide a web API (e.g., REST) to abstract a proprietary external system interface.
 
 The AM API is designed in an AM API diagram with application entities. As the AM API uses the DM APIs and SM APIs to realize its functionality, the AM API diagram also includes the relevant domain and system entities. As a result, the AM API diagram models the conceptual relation of the AM API to the SM and DM APIs. This modeling is then the basis for the AM API specification.
 
