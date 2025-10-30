@@ -33,7 +33,7 @@ Be "Implementing a Microservice in Golang" includes a description how to use GOR
 ## Postman (API Platform)
 The tool Postman is an API platform for building, using, and testing  APIs [Pos-Wha]. The tool can be used to send requests to a HTTP API.
 
-Be "Implementing a Microservice in Golang" includes a description how to create a HHTP request with Postman.
+Be "Implementing a Microservice in Golang" includes a description how to create a HTTP request with Postman.
 
 
 ## References
