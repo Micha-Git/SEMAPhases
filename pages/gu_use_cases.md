@@ -1,6 +1,7 @@
 # Use Cases
 
-Use cases specify the functional requirements that indicate what the system does in a way that defines a contract between the user and the system where the system is considered to be a black box. First, a UML use case diagram is created to provide an overview of the use cases, actors and their relationships. This diagram is by no means a sufficient specification of the use cases but it serves as a context diagram of the system and its environment. Each use case depicted in the use case diagram is further specified textually in a structured format given in the [use case template](#-use-case-template). Best practices for writing use cases are given in [best practices for writing use cases](#best-practices-for-writing-use-cases).
+Use cases specify the functional requirements that indicate what the system does in a way that defines a contract between the user and the system where the system is considered to be a black box. First, a UML use case diagram is created to provide an overview of the use cases, actors and their relationships. This diagram is by no means a sufficient specification of the use cases but it serves as a context diagram of the system and its environment. Each use case depicted in the use case diagram is further specified textually in a structured format given in the use case template. Best practices for writing use cases are given in [recommendations and hints writing use cases](#Recommendations-and-hints-for-writing-use-cases).
+
 
 ---
 ## Use Case `<Title>`
