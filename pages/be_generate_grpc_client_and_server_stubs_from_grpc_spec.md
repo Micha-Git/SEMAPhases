@@ -36,7 +36,7 @@ Note: To use gRPC-Web without an API proxy (e.g., Envoy), a wrapper for the Go s
 
 ## References
 
-[Git-grp] GitHub.com: gprc/grpcweb. https://github.com/grpc/grpc-web 
+[Git-grp] GitHub.com: gprc/grpcweb. https://github.com/grpc/grpc-web  
 [Git-imp-grp] GitHub.com: improbable-eng/grpc-web. https://github.com/improbable-eng/grpc-web/tree/master/go/grpcweb  
 [gRPC-PBC] gRPC.io: Protocol Buffer Compiler Installation. https://grpc.io/docs/protoc-installation/  
 [gRPC-QG] gRPC.io: Quickstart | Go | gRPC. https://grpc.io/docs/languages/go/quickstart/  
