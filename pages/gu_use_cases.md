@@ -79,7 +79,6 @@ Information Requirements:
 - Avoid actions that don't move the process forward
 - Writing style:
   - Always active sentences to make subjects and objects clear
-  - Reference primary actor as "actor" instead of its actual name
   - The system under design is an implicit actor in all use cases and referenced as "system"
   - Sentence structure: ```Actor <verb> <direct object> <prepositional phrase>```
   - No period at the end of the sentence 
