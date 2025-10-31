@@ -4,6 +4,7 @@ To derive the gRPC API specification for an application microservice API diagram
 This approach allows each modeling element used in the API diagram to be transferred into the API specification for gRPC.
 The API specification consists of a protocol buffer (.proto) file which contains all generated code [Pro-Ove]. To familiarize with built-in types, refer to the documentation [Pro-Sca]. gRPC services and messages are written according to the style guides [\[Pro-Sty\]](https://protobuf.dev/programming-guides/style/#services). The approach consists of the following main steps:
 
+Note: 
 
 
 ### Step 1: Analyze the API Diagram
@@ -32,6 +33,7 @@ message RentCarResponse {}
 
 **Note**: 
 - If a method does not have parameters, the corresponding request or response message remains empty. In such cases, use `google.protobuf.Empty`.
+- Include [status codes](https://grpc.io/docs/guides/status-codes/) if necessary.  
 
 ### Step 3: Map Enumerations
 1. Convert enumerations from the API diagram to gRPC using the `enum` type.
@@ -133,4 +135,4 @@ message ErrorDetail {
 **References**:
 - [Pro-Sca] [Protocol Buffers Documentation: Scalar Types](https://protobuf.dev/programming-guides/proto3/#scalar)
 - [Pro-Sty] [Protocol Buffers Documentation: Style Guide](https://protobuf.dev/programming-guides/style/#services)
-- [Pro-Ove] [Protocol Buffers Documentation: Enumerations](https://protobuf.dev/overview/)
+- [Pro-Enu] [Protocol Buffers Documentation: Enumerations](https://protobuf.dev/programming-guides/enum/)
