@@ -69,7 +69,7 @@ Information Requirements:
   - Should be simple assertions formulated declaratively 
   - Present tense
   - May be written passively (we are only interested in the condition itself)
-  - Leave empty without a new line if no conditions exist 
+  - Use placeholder None for empty pre- or postconditions
   - E.g. "system has a fleet registered for the actor" (precondition), "the car with the given VIN is added to the fleet" (postcondition)
 
 ### Flow 
