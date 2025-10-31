@@ -1,5 +1,5 @@
 # Guideline for the Analysis Artifact Story
-- Each sentence should begin with the name of a role.  
+- Each sentence should begin with the name of a person who instances of a role.  
 - Roles and names are introduced in the beginning of the story.  
     - In the case of a Proof of Concept (PoC), this is part of the story of the PoC (and not part of an involved application).  
     - In this part, different roles are seperated by an empty line.  
